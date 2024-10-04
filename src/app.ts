@@ -7,7 +7,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Working successfully!')
+  res.send('Working successfully on my unicersity managment project')
 })
 
 export default app
